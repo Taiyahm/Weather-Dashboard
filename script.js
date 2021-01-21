@@ -1,4 +1,3 @@
-
 var apikey = "692b89abf2c18359c1ee72aa48703fa6";
 var searchedCity = "";
 var recentCity = "";
@@ -47,7 +46,7 @@ var getWeatherforecast = (event) => {
     })
 }
 
-var getCurrentConditions = (event) => {
+var getWeatherConditions = (event) => {
    
     var city = $('#search-city').val();
     searchedCity= $('#search-city').val();
@@ -180,14 +179,14 @@ var handleErrors = (response) => {
 $('#search-button').on("click", (event) => {
 event.preventDefault();
 currentCity = $('#search-city').val();
-getCurrentConditions(event);
+getWeatherConditions(event);
 });
 
 $('#search-results').on("click", (event) => {
     event.preventDefault();
     $('#search-city').val(event.target.textContent);
     currentCity=$('#search-city').val();
-    getCurrentConditions(event);
+    getWeatherConditions(event);
 });
 
 $("#clear-search").on("click", (event) => {
@@ -199,5 +198,7 @@ $("#clear-search").on("click", (event) => {
 renderCities();
 
 
-getCurrentConditions();
+getWeatherConditions();
+
+
 
