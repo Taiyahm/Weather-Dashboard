@@ -4,7 +4,7 @@
 
 
 ## Description
-  Theis application is a weather dashboard that allows users to search any city and find the current weather conditions asell and the five day forecast for a city.
+  This application is a weather dashboard that allows users to search any city and find the current weather conditions asell and the five day forecast for a city. Previously searched cities are displayed to be accessed without searching again. A clear button is available to clear out the previously searched cities.
 
 ## Credits 
 OpenWeatherAPI
