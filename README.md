@@ -20,7 +20,7 @@ https://getbootstrap.com/
 https://taiyahm.github.io/Weather-Dashboard/
 
 ## SceenShot
-  ![image](https://user-images.githubusercontent.com/72588525/105422419-b6712580-5c11-11eb-81e5-040bae6c824c.png)
+  ![image](https://github.com/Taiyahm/Weather-Dashboard/assets/72588525/e5cba8f0-90f4-4ff3-b95f-fe1f16bd5ea4">)
   
   
 ## License
